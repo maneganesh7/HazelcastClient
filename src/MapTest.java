@@ -17,8 +17,8 @@ public class MapTest {
 		m1.setN("Test2");
 		MapTest m2=new MapTest(1, "Test1");
 		Map map = new HashMap();
-		map.put(m1, "Test1");
-		map.put(m2, "Test2");
+		map.put(m1, "Test11");
+		map.put(m2, "Test21");
 		System.out.println(map);
 	}
 }
